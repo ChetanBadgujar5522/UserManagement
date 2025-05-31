@@ -158,7 +158,6 @@ This Spring Boot microservice provides a REST API for user registration, login, 
 
 ## Project Structure
 
-(Briefly describe the main packages and their purpose)
 - `config`: Spring Security and OpenAPI configurations.
 - `controller`: REST API controllers.
 - `dto`: Data Transfer Objects for requests and responses.
