@@ -31,7 +31,7 @@ This Spring Boot microservice provides a REST API for user registration, login, 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/ChetanBadgujar5522/UserManagement.git
     cd user-management
     ```
 
