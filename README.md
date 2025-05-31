@@ -16,16 +16,15 @@ This Spring Boot microservice provides a REST API for user registration, login, 
 - Spring Security
 - Spring Data JPA
 - JJWT (for JSON Web Tokens)
-- H2 (In-memory database) / MySQL (optional)
+- H2 (In-memory database) / MySQL 
 - Maven
 - Lombok
-- Springdoc OpenAPI (for API documentation)
 
 ## Prerequisites
 
 - Java JDK 11 (or 8+) installed
 - Maven installed
-- An IDE like IntelliJ IDEA or Eclipse (optional, for development)
+- An IDE like IntelliJ IDEA or Eclipse 
 - Postman or cURL (for API testing)
 
 ## Setup and Running
@@ -33,7 +32,7 @@ This Spring Boot microservice provides a REST API for user registration, login, 
 1.  **Clone the repository:**
     ```bash
     git clone <your-repo-url>
-    cd user-management-service
+    cd user-management
     ```
 
 2.  **Configure `application.properties` (src/main/resources/):**
@@ -54,17 +53,13 @@ This Spring Boot microservice provides a REST API for user registration, login, 
     The application will start on `http://localhost:8080`.
 
 5.  **Access H2 Console (if using H2):**
-    *   URL: `http://localhost:8080/h2-console`
-    *   JDBC URL: `jdbc:h2:mem:userdb`
-    *   User Name: `sa`
-    *   Password: (leave blank)
+    *   URL: `http://localhost:8080`
+    *   JDBC URL: `jdbc:mysql://localhost:3306/UserMgtSer`
+    *   User Name: `root`
+    *   Password: `Chetan@#5522`
 
 6.  **Access Swagger UI (API Documentation):**
     *   URL: `http://localhost:8080/swagger-ui.html`
-
-## API Endpoints
-
-(Refer to Swagger UI for detailed interactive documentation)
 
 ### Authentication (`/auth`)
 
